@@ -1,13 +1,17 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+    <router-view></router-view>
+    <v-footer></v-footer>
   </div>
 </template>
 
 <script>
+import FooterGuide from '@/components/Footer/FooterGuide'
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    'v-footer': FooterGuide
+  }
 }
 </script>
 
