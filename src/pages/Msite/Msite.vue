@@ -1,6 +1,6 @@
 <template>
  <div class="page">
-   <h2>Msite</h2>
+   
  </div>
 </template>
 
@@ -13,6 +13,6 @@ export default {
   }
 }
 </script>
-<style scoped="">
+<style scoped lang="scss">
 
 </style>
