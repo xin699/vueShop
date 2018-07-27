@@ -6,6 +6,7 @@
 </template>
 
 <script>
+import './until/rem/rem'
 import FooterGuide from '@/components/Footer/FooterGuide'
 export default {
   name: 'App',
@@ -16,6 +17,8 @@ export default {
 </script>
 
 <style>
+@import './assets/css/reset.css';
+@import 'https://at.alicdn.com/t/font_765538_ildeq4lz83.css';
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

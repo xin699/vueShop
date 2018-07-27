@@ -1,0 +1,4 @@
+$baseFontSize: 75; //750设计稿适配
+@function px2rem($n) {
+    @return ($n / $baseFontSize * 1rem);
+}

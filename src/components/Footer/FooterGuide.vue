@@ -1,6 +1,15 @@
 <template>
  <div class="page">
-     foooterGuide
+     <ul>
+       <li>
+         <router-link  to="/home" tag="li">
+            <div>
+              <i class="iconfont icon-icon-"></i>
+            </div>
+            <span>订单</span>
+         </router-link>
+       </li>
+     </ul>
  </div>
 </template>
 

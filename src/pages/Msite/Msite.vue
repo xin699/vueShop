@@ -1,6 +1,6 @@
 <template>
  <div class="page">
-   
+   <h2>123</h2>
  </div>
 </template>
 
@@ -13,6 +13,11 @@ export default {
   }
 }
 </script>
-<style scoped lang="scss">
 
+<style lang="scss" scoped>
+  .page {
+    h2 {
+      font-size: px2rem(75)
+    }
+  }
 </style>
