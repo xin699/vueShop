@@ -19,12 +19,14 @@ export default {
 <style>
 @import './assets/css/reset.css';
 @import 'https://at.alicdn.com/t/font_765538_ildeq4lz83.css';
+</style>
+<style lang='scss'>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  /* margin-top: 60px; */
 }
 </style>
